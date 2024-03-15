@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+}
+.navigasi{
+    width: 100%;
+}
+.margin-lg-l{
+    width: 200px;
+    height: 50px;
+}
+.margin-slg-l{
+    width: 500px;
+    height: 50px;
+}
+.nama{
+    width: 6%;
+    height: 50px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: rgb(254, 244, 231);
+    text-align: center;
+}
+.nav{
+    width: 6%;
+    height: 50px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: rgb(254, 244, 231);
+    text-align: center ;
+    line-height: 50px;
+    margin-left: 5px;
+    color: black;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.float{
+    float: left;
+}
